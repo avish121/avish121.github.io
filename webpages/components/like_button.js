@@ -1,6 +1,7 @@
 'use strict';
 
 const e = React.createElement;
+const REACT_VERSION = React.version;
 
 class LikeButton extends React.Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return 'You liked this.';
+      return <div>You liked this.  {REACT_VERSION}</div>;
     }
 
     return e(
