@@ -1,3 +1,3 @@
-document.readyState(function () {
+document.ready(function () {
   print("hello World")
 })
