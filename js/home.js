@@ -1,3 +1,3 @@
 $(document).ready(function () {
-  print("hello World")
+  console.log("hello World")
 })
